@@ -104,7 +104,7 @@ All three custom implementations match or approach sklearn's SVC performance on 
 
 Each model includes **k-fold cross-validation from scratch** using a combined accuracy-loss scoring function:
 
-$$\text{score} = \text{accuracy} - \alpha \cdot \text{val\_loss}$$
+$$\text{score} = \text{accuracy} - \alpha \cdot \mathcal{L}_{\text{val}}$$
 
 This penalizes models that achieve high accuracy at the cost of poor generalization.
 
