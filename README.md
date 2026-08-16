@@ -128,7 +128,7 @@ This penalizes models that achieve high accuracy at the cost of poor generalizat
 ## Project Structure
 
 ```
-├── coceez.ipynb                        # Main notebook
+├── banknote-svm-primal-dual-kernel.ipynb                        # Main notebook
 ├── data_banknote_authentication.csv    # Dataset
 └── README.md
 ```
